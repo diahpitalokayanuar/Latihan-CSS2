@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(248, 107, 194);
+}
+
+.container1 {
+    margin: 50px auto 50px auto;
+    padding-top: 30px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.header {
+    border-radius: 9px;
+    text-align: center;
+    padding: 25px;
+    padding-top: 20px;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 27px;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster {
+    display: flex;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px;
+    border: 2px solid #4a484b;
+    border-radius: 7px;
+    width: 800px;
+}
+
+.intro {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.subtitle p {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.table table {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: medium;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.td {
+  text-align: left;
+  padding: 8px;
+  column-gap: 5px;
+}
+
+.tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+    width: 30%;
+    margin: 30px auto;
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 25px;
+    padding-bottom: 40px;
+}
+
+.footer h3 {
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h4 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .img-profile {
+    width: 80px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #e5c1ee;
+}
